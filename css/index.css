@@ -1,0 +1,377 @@
+
+body{
+    background-color: rgb(49, 38, 43); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+   
+
+.navbar-brand img{
+  width: 150px;
+  margin: 10px;
+  margin-right: 30px;
+}
+
+img{
+  width: 100%;
+}
+
+.navbar{
+      position: sticky;
+      z-index: 0;
+      background-color: white;
+      margin-top: 12px;
+}
+
+
+.navbar a{
+     margin: 5px;
+     color: black;
+     margin-left: 10px;
+     font-weight: 450;
+     border: none;
+}
+
+a:hover{
+  color: #d2d2e7;
+}
+
+footer a:hover{
+  color:  #828286;
+}
+
+
+#background{
+  background-image: url("../photoz/photo1.jpeg"); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  margin-top: 1px;
+}
+
+.over{
+    background-color:  rgb(34, 34, 34);
+    opacity: 0.5;
+    text-align: left;
+    font-weight: bolder;
+    color: white;
+    padding: 25px;
+    width: 40%;
+    position: relative;
+    top: 80px;
+    float: right;
+    margin-right: 30px;
+}
+
+.link{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  border: 3px solid white;
+  padding: 10 25px;
+  line-height: 100px;
+
+}
+
+.input-link{
+  padding: 8 80px;
+  border-radius: 3px;
+}
+
+.input-mail{
+  padding: 8 150px;
+  text-align: center;
+  margin-bottom: 12px;
+  border-radius: 5px;
+}
+
+#section2{
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.hh1{
+  padding: 50px;
+  opacity: 0.9;
+}
+
+.span-sale{
+  background-color: rgb(175, 121, 96) ;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 30px;
+  padding: 15px;
+  color: white;
+  font-size: small;
+}
+
+.men1{
+     color: #d0d0d3;
+     padding: 0;
+     margin: 0;
+}
+
+.men2{
+  color: dimgray;
+  padding: 0;
+  margin: 0;
+}
+
+.men3{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  background-color: rgb(175, 121, 96);
+  padding: 8 20px;
+  line-height: 40px;
+  border-radius: 2px;
+}
+
+#section3{
+  background-color: rgba( 0, 0, 0,  .5);
+  background-image: url("../photoz/photo.jpeg");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 100px;
+}
+
+
+.pp{
+  margin: 0;
+  padding: 0;
+  font-size: small;
+}
+
+.designer{
+  padding-bottom: 18px;
+}
+
+
+#section4{
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.hh2{
+  opacity: 0.7;
+  padding: 30 40px;
+}
+
+
+#section5{
+  background-color: rgb(49, 38, 43);
+  padding-bottom: 2px;
+  color: white;
+}
+
+.pss-span{
+  background-color: white;
+  color: rgb(75, 70, 70);
+  font-weight: 550;
+  font-size: large;
+}
+
+
+.update{
+  padding: 40px;
+}
+
+/*about section*/
+
+#about{
+  color: white;
+  margin-bottom: 3px;
+}
+
+.about-h1{
+  margin-top: 80px;
+}
+
+.about-us{
+  text-align: left;
+  background-color: white;
+  color: #828286;
+  padding: 30px;
+}
+
+
+/*shop*/
+
+#shop{
+  color: white;
+  margin-bottom: 1px;
+}
+
+.filter-all{
+  background-color:  rgb(175, 121, 96);
+  color: white;
+  font-size: 14px;
+  padding: 3 25px;
+  text-decoration: none;
+}
+
+
+.left-all{
+  text-align: left;
+}
+
+.by-categoreis, .by-price{
+  font-size: 20px;
+}
+
+.price1{
+  color: #c5c5d6;
+}
+
+.price2{
+  font-weight: bold;
+}
+
+.all-filter a{
+       border-bottom: 1px solid rgb(175, 121, 96);
+       width: 100%;
+       text-decoration: none;
+       font-weight: bold;
+       color:  rgb(175, 121, 96);
+
+}
+
+.circle{
+  background-color:  rgb(175, 121, 96);
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+  color: rgb(175, 121, 96);
+  position: relative;
+  top: 7px;
+}
+
+
+.product-filter{
+  background-color: white;
+  color: black;
+}
+
+.col9{
+  margin-bottom: 100px;
+}
+
+#contact{
+  background-color: white;
+}
+
+#about img{
+  width: 50%;
+}
+
+
+.line-border{
+  border-bottom: 3px solid white;
+  width: 140px;
+  margin: auto;
+  margin-bottom: 80px;
+  margin-top: 20px;
+}
+
+
+.line-border1{
+  border-bottom: 3px solid rgb(138, 66, 66);
+  width: 200px;
+  margin: auto;
+  margin-bottom: 80px;
+  margin-top: 20px;
+}
+
+footer{
+  background-color: white;
+  padding: 20px;
+}
+
+footer a{
+  color: #828286;
+  text-decoration: none;
+  list-style: none;
+  letter-spacing: -1px;
+  padding: 5px;
+ 
+}
+
+.right-border{
+  border-right: 1px solid  #c5c5d6;
+}
+
+footer img{
+  width: 20px;
+  margin: 10px;
+}
+
+.icons{
+  padding: 0;
+  margin: 0;
+}
+
+.border{
+  border: 1px double rgb(175, 121, 96);
+}
+
+
+
+    /* Meadia Query */
+@media screen and (max-width: 990px){
+
+
+      .navbar-nav li{
+        text-align: left;
+      }
+
+      .navbar-nav li a{
+          border-bottom: #d0d0d3 1px solid;
+      }
+
+      .over{
+        background-color:  rgb(34, 34, 34);
+        opacity: 0.6;
+        text-align: left;
+        font-weight: bolder;
+        color: white;
+        width: 100%;
+        height: 57%;
+        margin: auto;
+        position: relative;
+        top: 120px;
+    }
+
+    .product-row img{
+      width: 50%;
+    }
+
+
+    .input-mail{
+      padding: 8 30%;
+      text-align: center;
+      margin-bottom: 12px;
+      border-radius: 5px;
+    }
+
+
+    .input-link{
+      padding: 8 10%;
+      border-radius: 3px;
+    }
+
+
+
+
+
+
+
+
+}
