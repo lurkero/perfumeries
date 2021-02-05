@@ -50,7 +50,12 @@ body{
 }
 
 .icon img{
-  width: 45px;
+  width: 35px;
+}
+
+.about-icon{
+  width: 65px;
+  margin: auto;
 }
 
 img{
@@ -67,10 +72,15 @@ img{
 
 .navbar a{
      margin: 5px;
-     color: black;
+     color: rgb(131, 99, 73) !important;
      margin-left: 10px;
      font-weight: 450;
      border: none;
+     font-weight: bold;
+}
+
+.navbar a:hover{
+   color: rgb(201, 152, 123) !important;
 }
 
 a:hover{
